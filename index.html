@@ -5,33 +5,49 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1,
 shrink-to-fit=no">
+<!-- Link to Leaflet -->
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+<!-- Link to Styles sheet - check link later -->
+<link rel="stylesheet" href="styles.css" />
+
+<!-- Title of page -->
+<title>Waste Management</title>
+</head>
+<nav class="navbar navbar-light bg-light">
+    <div id="menu">
+        <!-- Title of page -->
+      <a id="about"  href="">About</a>
+      <a id="wasteManagement" href="">Waste Management</a>
+      <a id="collectionPoints" href="">Collection Points</a>
+      <a id="contactUs" href="">Contact Us</a>
+     </div>
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet"
 href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6
 JXm" crossorigin="anonymous">
-<title>Hello, world!</title>
-</head>
-<body>
-<h1>Hello, world!</h1>
 
-<div>
-    <button id="page1-btn">Page 1</button>
-    <button id="page2-btn">Page 2</button>
-    
-    <button id="page3-btn">Page 3</button>
-    </div>
-    <div id="all-pages">
-    <div class="page" id="page-1">
-    <h1>About Me</h1>
-    </div>
-    <div class="page hidden" id="page-2">
-    <h1>Our Product</h1>
-    </div>
-    <div class="page hidden" id="page-3">
-    <h1>Contact Us</h1>
-    </div>
-    </div>
+<body>
+    <div id="singapore-map"></div>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
