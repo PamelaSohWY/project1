@@ -1,3 +1,4 @@
+//testingin comment 
 let singapore = [1.29, 103.85];
 let map = L.map('singapore-map');
 map.setView(singapore, 13);
