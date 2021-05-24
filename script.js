@@ -1,7 +1,9 @@
 //testingin comment 
+async function main(){
 let singapore = [1.29, 103.85];
 let map = L.map('singapore-map');
 map.setView(singapore, 13);
+
 
 // setup tilelayer
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -13,11 +15,28 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiZXh0cmFrdW4iLCJhIjoiY2swdnZtMWVvMTAxaDNtcDVmOHp2c2lxbSJ9.4WxdONppGpMXeHO6rq5xvg'
 }).addTo(map);
 
-window.addEventListener('DOMContentLoaded', async ()=>{
-    let response = await axios.get('cashtrash.geojson');
-    let layer = L.geoJson(response.data, {
-        onEachFeature: function(feature, layer) {
-            console.log(feature);
+
+let trashstationRequest = applyGeoJSON(map, './data/cashtrash.geojson');
+let trashstationLayer = await trashstationRequest;
+
+document
+.querySelector("#btn-add-trashstation")
+.addEventListener("click",function(){
+  // map has the trash station layer 
+  if (map.hasLayer(trashstationLayer)) {
+    map.removeLayer(trashstationLayer);
+  } else{
+    map.addLayer(trashstationLayer)
+  }
+})
+
+}
+main();
+//window.addEventListener('DOMContentLoaded', async ()=>{
+  //  let response = await axios.get('cashtrash.geojson');
+    //let layer = L.geoJson(response.data, {
+      //  onEachFeature: function(feature, layer) {
+        //    console.log(feature);
             //let divElement = document.createElement('div');
             //divElement.innerHTML = Feature.properties.Description.ADDRESSPOSTALCODE;
             //let locality = divElement.querySelector('td').innerHTML;
@@ -28,14 +47,14 @@ window.addEventListener('DOMContentLoaded', async ()=>{
             //<h2>Cases: ${cases}</h2>
            // <div>`);
 
-           layer.bindPopup(feature.properties.Description)
-        }
-    });
-    layer.addTo(map);
-    layer.setStyle({
-        'color':'red',
-        'fillColor':'purple'
-    })
+//           layer.bindPopup(feature.properties.Description)
+  //      }
+   // });
+    //layer.addTo(map);
+    //layer.setStyle({
+     //   'color':'red',
+     //   'fillColor':'purple'
+   // })
 
    //  let response2 = await axios.get('southwest.geojson');
      //let layer2 = L.geoJson(response2.data, {
@@ -49,4 +68,4 @@ window.addEventListener('DOMContentLoaded', async ()=>{
         //'fillColor':'orange'
    // })
     
-})
+//})
