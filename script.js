@@ -1,9 +1,14 @@
+
+//gobal variable
+let xlayer = L.layerGroup()
+
+//marker 
 async function getCoordinates(map){  //no need map for this bec not using map 
   let response = await axios.get('./data/cashtrash.geojson');
   //x.features[0].geometry.coordinates[1]
   // console.log(response);
   // create an empty group
-  let xlayer = L.layerGroup()
+ 
   //loop through co-ordinates
   for(let coordinates of response.data.features ) {
    // create marker using each corodiates
@@ -16,7 +21,22 @@ async function getCoordinates(map){  //no need map for this bec not using map
   // add layer to map
   xlayer.addTo(map);
 
-}
+  };
+
+  //toggle button
+  document
+  .getElementById("btn-add-trashstation")
+  .addEventListener("click", function(){
+    if (map.hasLayer(xlayer)){
+      map.removeLayer(xlayer);
+     } else{
+     map.addLayer(xlayer)
+  }})
+
+
+
+
+
 
 
 // For Set Up of Map
