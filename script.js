@@ -12,14 +12,20 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiZXh0cmFrdW4iLCJhIjoiY2swdnZtMWVvMTAxaDNtcDVmOHp2c2lxbSJ9.4WxdONppGpMXeHO6rq5xvg'
 }).addTo(map);
 
+let north= [];
+let south=[]
+
+let trashLayer;
+// let clusterLayer = L.markerClusterGroup()
 
 window.addEventListener('DOMContentLoaded', async ()=>{
     let response = await axios.get('./data/cashtrash.geojson');
-    let layer = L.geoJson(response.data, {
+    trashLayer = L.geoJson(response.data, {
         onEachFeature: function(feature, layer) {
             console.log(feature);
-  //          let divElement = document.createElement('div');
-  //          divElement.innerHTML = feature.properties.Description;
+           let divElement = document.createElement('div');
+           divElement.innerHTML = feature.properties.Description;
+           console.log(divElement.querySelectorAll('td')[7].innerHTML)
   //          let locality = divElement.querySelector('td').innerHTML;
   //         let cases = divElement.querySelectorAll('td')[1].innerHTML;
             
@@ -31,23 +37,22 @@ window.addEventListener('DOMContentLoaded', async ()=>{
    layer.bindPopup(feature.properties.Description)
 //basic for map
       }              //show map 
+
+      // update the style here
     });              //show map   
 
 //create event listener for the add trash station button
 document.getElementById("btn-add-trashstation").addEventListener("click", addTrashStation)
-//{
-//  if (map.has)
-//}
-
-;
 
 function addTrashStation(){
- layer.addTo(map);   //show map 
+  if (map.hasLayer(trashLayer)){
+    map.removeLayer(trashLayer);
+   } else{
+   map.addLayer(trashLayer)
+   
+   }
 };
 
-    layer.setStyle({        'color':'red',
-        'fillColor':'purple'
-    })
 
 //     let response2 = await axios.get('southwest.geojson');
  //    let layer2 = L.geoJson(response2.data, {
@@ -64,6 +69,10 @@ function addTrashStation(){
 }) //show map 
 
 
+
+
+
+//Code for Clustering 
 //async function getTrashCoordinates(){
 //  let response = await axios.get('./data/cashtrash.geojson');
   //x.features[0].geometry.coordinates   // what is the x?
