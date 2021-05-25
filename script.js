@@ -32,10 +32,20 @@ window.addEventListener('DOMContentLoaded', async ()=>{
 //basic for map
       }              //show map 
     });              //show map   
+
+//create event listener for the add trash station button
+document.getElementById("btn-add-trashstation").addEventListener("click", addTrashStation)
+//{
+//  if (map.has)
+//}
+
+;
+
+function addTrashStation(){
  layer.addTo(map);   //show map 
+};
 
-
-     layer.setStyle({        'color':'red',
+    layer.setStyle({        'color':'red',
         'fillColor':'purple'
     })
 
@@ -52,3 +62,26 @@ window.addEventListener('DOMContentLoaded', async ()=>{
  //   })
     
 }) //show map 
+
+
+//async function getTrashCoordinates(){
+//  let response = await axios.get('./data/cashtrash.geojson');
+  //x.features[0].geometry.coordinates   // what is the x?
+//  return response.data.features[0].geometry.coordinates[0][1];                     
+//} 
+
+//async function addTrashCoordinates(map)
+//{
+//  let trashstation = await getTrashCoordinates()
+   //create clusters to hold markers 
+//   let cluster = L.markerClusterGroup();
+//   for(let s of stations){
+     //swap so it becomes [lat,lng]
+//     let coordinate = [s[1], s[0]];
+//     let stationMarker = L.marker(coordinate);
+//     stationMarker.addTo(cluster);
+//   }
+//   cluster.addTo(map);
+//   }
+
+//addTrashCoordinates(map);
