@@ -79,7 +79,20 @@ href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
   </nav>
 
 <!--Button-->
+
+<div class='container'>
 <button id="btn-add-trashstation" >Find Trash Stations</button>  
+
+  <input type='text' id='search' placeholder='Enter postal code'/>
+  <button id='find-button'>Find</button>
+  <div id='result'>
+      <h3 id='station-postal'></h3>
+      <p id='station-details'></p>
+      <p>Details: <span id="details"></span></p>
+          
+      </ul>
+  </div>
+</div>
 
 <!--Map-->
     <div id="singapore-map"></div>
