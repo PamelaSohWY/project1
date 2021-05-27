@@ -2,13 +2,18 @@
 //gobal variable
 let xlayer = L.layerGroup()
 
+ let divElement = document.createElement('div');
+
 //marker 
 async function getCoordinates(map){  //no need map for this bec not using map 
   let response = await axios.get('./data/cashtrash.geojson');
   //x.features[0].geometry.coordinates[1]
   // console.log(response);
   // create an empty group
+
+  
  
+
   //loop through co-ordinates
   for(let coordinates of response.data.features ) {
    // create marker using each corodiates
@@ -17,11 +22,34 @@ async function getCoordinates(map){  //no need map for this bec not using map
     marker.addTo(xlayer);
     //bind popup to marker
     marker.bindPopup(`hello`);
+
+     divElement.innerHTML = coordinates.properties.Description; //
+    let postal = divElement.querySelectorAll('td')[7].innerHTML
+    console.log(postal[0], postal[1]);
+   
   }
   // add layer to map
   xlayer.addTo(map);
 
   };
+
+//For buttons to divide by postal code 
+
+//global variable
+ 
+  //get west co-ordinates 
+ 
+ 
+    //let divElement = document.createElement('div');
+    //divElement.innerHTML = feature.properties.Description;
+    //let postal = divElement.querySelectorAll('td')[7].innerHTML
+    //console.log(divElement.querySelectorAll('td')[7].innerHTML)
+  
+    // for (let p of postal )
+    // if 
+
+
+  //
 
   //toggle button
   document
@@ -32,10 +60,6 @@ async function getCoordinates(map){  //no need map for this bec not using map
      } else{
      map.addLayer(xlayer)
   }})
-
-
-
-
 
 
 
