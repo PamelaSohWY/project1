@@ -11,8 +11,6 @@ async function getCoordinates(map){  //no need map for this bec not using map
   // console.log(response);
   // create an empty group
 
-  
- 
 
   //loop through co-ordinates
   for(let coordinates of response.data.features ) {
@@ -23,10 +21,25 @@ async function getCoordinates(map){  //no need map for this bec not using map
     //bind popup to marker
     marker.bindPopup(`hello`);
 
-     divElement.innerHTML = coordinates.properties.Description; //
+    //needs to be put into the function
+     divElement.innerHTML = coordinates.properties.Description; //features was replaced with coordinates
     let postal = divElement.querySelectorAll('td')[7].innerHTML
-    console.log(postal[0], postal[1]);
-   
+    console.log(postal[0] + postal[1]);
+
+    if (postal === "11" && postal === "12" && postal === "13") {
+      console.log ("The West Zone Stations in District 5 are")
+      console.log(postal)//how to check if this is the filtered postal
+    } else if 
+      (postal === "60" && postal === "61" && postal === "62" && postal === "63" && postal=== "64" ) {
+      console.log("The West Zone Stations in District 22 are" )
+      console.log(postal)
+    } else if 
+      (postal === "65" && postal === "66" && postal === "67" && postal === "68" ){
+      console.log("The West Zone Stations in District 23 are")
+    } else {
+      console.log ("Not in the West")
+    }
+  
   }
   // add layer to map
   xlayer.addTo(map);
