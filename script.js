@@ -24,7 +24,16 @@ async function getCoordinates(map){  //no need map for this bec not using map
   //loop through co-ordinates
   for(let coordinates of response.data.features ) {
    // create marker using each corodinates
-    let marker = L.marker([coordinates.geometry.coordinates[1], coordinates.geometry.coordinates[0]]) //,{icon:trashIcon} Do i put it here?
+    let marker = L.marker([coordinates.geometry.coordinates[1], coordinates.geometry.coordinates[0]]
+      //,
+    //  {
+    //  icon : L.icon({
+    //    Url: "./images/cashicon.png",
+    //    Size:[50,40],
+    //    Anchor: [25,16]
+    //  })
+    //}
+    ) //,{icon:trashIcon} Do i put it here?
     // add marker to layer 
     marker.addTo(xlayer);
     //bind popup to marker
