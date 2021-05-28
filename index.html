@@ -83,16 +83,25 @@ href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
 <div class='container'>
 <button id="btn-add-trashstation" >Find Trash Stations</button>  
 
-  <input type='text' id='search' placeholder='Enter postal code'/>
-  <button id='find-button'>Find</button>
-  <div id='result'>
-      <h3 id='station-postal'></h3>
-      <p id='station-details'></p>
-      <p>Details: <span id="details"></span></p>
-          
-      </ul>
-  </div>
-</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    MRT Stations
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Jurong East MRT</a></li>
+    <li><a class="dropdown-item" href="#">Bukit Batok MRT</a>
+    <li><a class="dropdown-item" href="#">Bukit Gombak MRT</a>
+    <li><a class="dropdown-item" href="#">Choa Chu Kang MRT</a>
+    <li><a class="dropdown-item" href="#">Yew Tee MRT</a>
+    <li><a class="dropdown-item" href="#">Kranji MRT</a>
+    <li><a class="dropdown-item" href="#">Marsiling MRT</a>
+    
+  
+
+</div> <!--Dropdown Div-->
+    <ul id="data">
+    </ul>
+</div><!--Container Div-->
 
 <!--Map-->
     <div id="singapore-map"></div>
@@ -128,6 +137,7 @@ mYl" crossorigin="anonymous"></script>
 
 <!--Script to link to JS always put at last-->
 <script src="./script.js"></script>
+<script src="./searchscript.js"></script>
 </body>
 </html>
 

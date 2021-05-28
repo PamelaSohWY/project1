@@ -1,0 +1,695 @@
+
+[
+{
+    "name":"Jurong East",
+    "type":"MRT",
+    "coordinates":[1.333207,103.742308] 
+
+},
+{
+    "name":"Bukit Batok",
+    "type":"MRT",
+    "coordinates":[1.349069,103.749596] 
+
+},
+{
+    "name":"Bukit Gombak",
+    "type":"MRT",
+    "coordinates":[1.359043,103.751863] 
+
+},
+{
+    "name":"Choa Chu Kang",
+    "type":"MRT",
+    "coordinates":[1.385417,103.744316] 
+},
+{
+    "name":"Yew Tee",
+    "type":"MRT",
+    "coordinates":[1.397383,103.747523] 
+
+},
+{
+    "name":"Woodlands",
+    "type":"MRT",
+    "coordinates":[1.436984,103.786406] 
+},
+{
+    "name":"Admiralty",
+    "type":"MRT",
+    "coordinates":[1.436984,103.786406] 
+
+},
+{
+    "name":"Sembawang",
+    "type":"MRT",
+    "coordinates":[1.449133,103.82006] 
+
+},
+{
+    "name":"Yishun",
+    "type":"MRT",
+    "coordinates":[1.429666,103.835044] 
+
+},
+{
+    "name":"Khatib",
+    "type":"MRT",
+    "coordinates":[1.417423,103.832995] 
+
+},
+{
+    "name":"Yio Chu Kang",
+    "type":"MRT",
+    "coordinates":[1.381765,103.844923] 
+
+},
+{
+    "name":"Ang Mo Kio",
+    "type":"MRT",
+    "coordinates":[1.370025,103.849588] 
+
+},
+{
+    "name":"Bishan",
+    "type":"MRT",
+    "coordinates":[1.35092,103.848206] 
+
+},
+{
+    "name":"Braddell",
+    "type":"MRT",
+    "coordinates":[1.34055,103.847098] 
+
+},
+{
+    "name":"Toa Payoh",
+    "type":"MRT",
+    "coordinates":[1.332405,103.847436] 
+
+},
+{
+    "name":"Novena",
+    "type":"MRT",
+    "coordinates":[1.320089,103.843405] 
+
+},
+{
+    "name":"Newton",
+    "type":"MRT",
+    "coordinates":[1.31383,103.838021] 
+
+},
+{
+    "name":"Orchard",
+    "type":"MRT",
+    "coordinates":[1.304041,103.831792] 
+
+},
+{
+    "name":"Somerset",
+    "type":"MRT",
+    "coordinates":[1.300508,103.838428] 
+
+},
+{
+    "name":"Dhoby Ghaut",
+    "type":"MRT",
+    "coordinates":[1.299169,103.845799] 
+},
+{
+    "name":"City Hall",
+    "type":"MRT",
+    "coordinates":[1.293119,103.852089] 
+  
+},
+{
+    "name":"Raffles Place",
+    "type":"MRT",
+    "coordinates":[1.284001,103.85155] 
+
+},
+{
+    "name":"Marina Bay",
+    "type":"MRT",
+    "coordinates":[1.276481,103.854598] 
+
+},
+{
+    "name":"Marina South Pier",
+    "type":"MRT",
+    "coordinates":[1.271422,103.863581] 
+
+},
+{
+    "name":"Tuas Link",
+    "type":"MRT",
+    "coordinates":[1.340371,103.636866] 
+
+},
+{
+    "name":"Tuas West Road",
+    "type":"MRT",
+    "coordinates":[1.330075,103.639636] 
+
+},
+{
+    "name":"Tuas Crescent",
+    "type":"MRT",
+    "coordinates":[1.321091,103.649075] 
+
+},
+{
+    "name":"Gul Circle",
+    "type":"MRT",
+    "coordinates":[1.319809,103.66083] 
+
+},
+{
+    "name":"Joo Koon",
+    "type":"MRT",
+    "coordinates":[1.327826,103.678318] 
+
+},
+{
+    "name":"Pioneer",
+    "type":"MRT",
+    "coordinates":[1.337645,103.69742] 
+    
+
+},
+{
+    "name":"Boon Lay",
+    "type":"MRT",
+    "coordinates":[1.33862,103.705817] 
+
+},
+{
+    "name":"Lakeside",
+    "type":"MRT",
+    "coordinates":[1.344264,103.720797] 
+
+},
+{
+    "name":"Chinese Garden",
+    "type":"MRT",
+    "coordinates":[1.342436,103.732582] 
+
+},
+{
+    "name":"Clementi",
+    "type":"MRT",
+    "coordinates":[1.314925,103.765341] 
+
+},
+
+{
+    "name":"Dover",
+    "type":"MRT",
+    "coordinates":[1.311414,103.778596] 
+
+},
+{
+    "name":"Buona Vista",
+    "type":"MRT",
+    "coordinates":[1.307337,103.790046] 
+
+},
+{
+    "name":"Commonwealth",
+    "type":"MRT",
+    "coordinates":[1.302439,103.798326] 
+
+},
+{
+    "name":"Queenstown",
+    "type":"MRT",
+    "coordinates":[1.294867,103.805902] 
+    
+},
+{
+    "name":"Redhill",
+    "type":"MRT",
+    "coordinates":[1.289674,103.816787] 
+
+},
+{
+    "name":"Tiong Bahru",
+    "type":"MRT",
+    "coordinates":[1.286555,103.826956] 
+
+},
+{
+    "name":"Outram Park",
+    "type":"MRT",
+    "coordinates":[1.280319,103.839459] 
+
+},
+{
+    "name":"Tanjong Pagar",
+    "type":"MRT",
+    "coordinates":[1.276385,103.846771] 
+
+},
+{
+    "name":"Bugis",
+    "type":"MRT",
+    "coordinates":[1.300747,103.855873] 
+
+},
+{
+    "name":" Lavender",
+    "type":"MRT",
+    "coordinates":[1.307577,103.863155] 
+
+},
+{
+    "name":"Kallang",
+    "type":"MRT",
+    "coordinates":[1.311532,103.871372] 
+
+},
+{
+    "name":"Aljunied",
+    "type":"MRT",
+    "coordinates":[1.316474,103.882762] 
+
+},
+{
+    "name":"Paya Lebar",
+    "type":"MRT",
+    "coordinates":[1.318214,103.893133] 
+    
+},
+{
+    "name":"Eunos",
+    "type":"MRT",
+    "coordinates":[1.319809,103.902888] 
+
+},
+{
+    "name":"Kembangan",
+    "type":"MRT",
+    "coordinates":[1.320998,103.913433] 
+
+},
+{
+    "name":" Bedok",
+    "type":"MRT",
+    "coordinates":[1.324043,103.930205] 
+
+},
+{
+    "name":"Tanah Merah",
+    "type":"MRT",
+    "coordinates":[1.327309,103.946479] 
+
+},
+{
+    "name":"Simei",
+    "type":"MRT",
+    "coordinates":[1.343237,103.953343] 
+},
+{
+    "name":"Tampines",
+    "type":"MRT",
+    "coordinates":[1.354467,103.943325] 
+
+},
+{
+    "name":"Pasir Ris",
+    "type":"MRT",
+    "coordinates":[1.373234,103.949343] 
+
+},
+{
+    "name":"Expo",
+    "type":"MRT",
+    "coordinates":[1.334479,103.961459] 
+
+},
+{
+    "name":"Changi Airport",
+    "type":"MRT",
+    "coordinates":[1.357622,103.988487] 
+
+},
+{
+    "name":"HarbourFront",
+    "type":"MRT",
+    "coordinates":[1.265453,103.820514] 
+},
+{
+    "name":"Chinatown",
+    "type":"MRT",
+    "coordinates":[1.284566,103.843626] 
+
+},
+{
+    "name":"Clarke Quay",
+    "type":"MRT",
+    "coordinates":[1.288949,103.847521] 
+
+},
+{
+    "name":"Little India",
+    "type":"MRT",
+    "coordinates":[1.306691,103.849396] 
+
+},
+{
+    "name":"Farrer Park",
+    "type":"MRT",
+    "coordinates":[1.312679,103.854872] 
+
+},
+{
+    "name":"Boon Keng",
+    "type":"MRT",
+    "coordinates":[1.320091,103.861655] 
+
+},
+{
+    "name":"Potong Pasir",
+    "type":"MRT",
+    "coordinates":[1.331316,103.868779] 
+
+},
+{
+    "name":"Woodleigh",
+    "type":"MRT",
+    "coordinates":[1.339202,103.870727] 
+
+},
+{
+    "name":"Serangoon",
+    "type":"MRT",
+    "coordinates":[1.349862,103.873635] 
+
+},
+{
+    "name":"Kovan",
+    "type":"MRT",
+    "coordinates":[1.360207,103.885163] 
+
+},
+{
+    "name":"Hougang",
+    "type":"MRT",
+    "coordinates":[1.371406,103.892533] 
+
+},
+{
+    "name":"Buangkok",
+    "type":"MRT",
+    "coordinates":[1.382991,103.893347] 
+
+},
+{
+    "name":"Sengkang",
+    "type":"MRT",
+    "coordinates":[1.391682,103.895475] 
+},
+{
+    "name":"Punggol",
+    "type":"MRT",
+    "coordinates":[1.405191,103.902367] 
+
+},
+{
+    "name":"Bras Basah",
+    "type":"MRT",
+    "coordinates":[1.296978,103.850715] 
+
+},
+{
+    "name":"Esplanade",
+    "type":"MRT",
+    "coordinates":[1.293995,103.855396] 
+
+},
+{
+    "name":"Promenade",
+    "type":"MRT",
+    "coordinates":[1.294063,103.860156] 
+
+},
+{
+    "name":"Nicoll Highway",
+    "type":"MRT",
+    "coordinates":[1.300292,103.863449] 
+
+},
+{
+    "name":"Stadium",
+    "type":"MRT",
+    "coordinates":[1.302847,103.875417] 
+
+},
+{
+    "name":"Mountbatten",
+    "type":"MRT",
+    "coordinates":[1.306106,103.883175] 
+
+},
+{
+    "name":"Dakota",
+    "type":"MRT",
+    "coordinates":[1.308474,103.888825] 
+
+},
+{
+    "name":"MacPherson",
+    "type":"MRT",
+    "coordinates":[1.326769,103.88990] 
+},
+{
+    "name":"Tai Seng",
+    "type":"MRT",
+    "coordinates":[1.33594,103.887706] 
+
+},
+{
+    "name":"Bartley",
+    "type":"MRT",
+    "coordinates":[1.342923,103.87966] 
+
+},
+{
+    "name":"Lorong Chuan",
+    "type":"MRT",
+    "coordinates":[1.35153,103.864957] 
+
+},
+{
+    "name":"Marymount",
+    "type":"MRT",
+    "coordinates":[1.349089,103.839116] 
+
+},
+{
+    "name":"Caldecott",
+    "type":"MRT",
+    "coordinates":[1.337649,103.839627] 
+
+},
+{
+    "name":"Botanic Gardens",
+    "type":"MRT",
+    "coordinates":[1.322387,103.814905] 
+
+},
+{
+    "name":"Farrer Road",
+    "type":"MRT",
+    "coordinates":[1.317606,103.807711] 
+
+},
+{
+    "name":"Holland Village",
+    "type":"MRT",
+    "coordinates":[1.311189,103.796119] 
+
+},
+{
+    "name":"one-north",
+    "type":"MRT",
+    "coordinates":[1.299854,103.787584] 
+
+},
+{
+    "name":"Kent Ridge",
+    "type":"MRT",
+    "coordinates":[1.293629,103.784441] 
+
+},
+{
+    "name":"Haw Par Villa",
+    "type":"MRT",
+    "coordinates":[1.283149,103.781991] 
+
+},
+{
+    "name":"Pasir Panjang",
+    "type":"MRT",
+    "coordinates":[1.276111,103.791893] 
+
+},
+{
+    "name":"Labrador Park",
+    "type":"MRT",
+    "coordinates":[1.27218,103.802557] 
+
+},
+{
+    "name":"Telok Blangah",
+    "type":"MRT",
+    "coordinates":[1.270769,103.809878] 
+
+},
+{
+    "name":"Bayfront",
+    "type":"MRT",
+    "coordinates":[1.281371,103.858998] 
+
+},
+{
+    "name":"Bukit Panjang",
+    "type":"MRT",
+    "coordinates":[1.37834,103.762452] 
+
+},
+{
+    "name":"Cashew",
+    "type":"MRT",
+    "coordinates":[1.369997,103.764569] 
+
+},
+{
+    "name":"Hillview",
+    "type":"MRT",
+    "coordinates":[1.363185,103.767371] 
+
+},
+{
+    "name":"Beauty World",
+    "type":"MRT",
+    "coordinates":[1.341607,103.775682] 
+
+},
+{
+    "name":"King Albert Park",
+    "type":"MRT",
+    "coordinates":[1.335721,103.783203] 
+
+},
+{
+    "name":"Sixth Avenue",
+    "type":"MRT",
+    "coordinates":[1.331221,103.79718] 
+ 
+},
+{
+    "name":"Tan Kah Kee",
+    "type":"MRT",
+    "coordinates":[1.325826,103.807959] 
+
+},
+{
+    "name":"",
+    "type":"",
+    "coordinates":[] 
+
+},
+{
+    "name":"",
+    "type":"",
+    "coordinates":[] 
+
+},
+{
+    "name":"",
+    "type":"",
+    "coordinates":[] 
+   
+    // ,,
+    // Stevens,MRT,1.320012,103.825964
+    // Rochor,MRT,1.303601,103.852581
+    // Downtown,MRT,1.27949,103.852802
+    // Telok Ayer,MRT,1.282285,103.848584
+    // Fort Canning,MRT,1.291631,103.844621
+    // Bencoolen,MRT,1.298477,103.849984
+    // Jalan Besar,MRT,1.305551,103.855443
+    // Bendemeer,MRT,1.313674,103.863098
+    // Geylang Bahru,MRT,1.321479,103.871457
+    // Mattar,MRT,1.326878,103.883304
+    // Ubi,MRT,1.330008,103.898911
+    // Kaki Bukit,MRT,1.335076,103.909057
+    // Bedok North,MRT,1.335268,103.918054
+},
+{
+    "name":"",
+    "type":"",
+    "coordinates":[] 
+
+},
+{
+    "name":"",
+    "type":"",
+    "coordinates":[] 
+
+},
+{
+    "name":"",
+    "type":"",
+    "coordinates":[] 
+
+},
+
+
+]
+
+
+/
+// Bedok Reservoir,MRT,1.336595,103.93307
+// Tampines West,MRT,1.345583,103.938244
+// Tampines East,MRT,1.35631,103.955471
+// Upper Changi,MRT,1.342218,103.961505
+// South View,LRT,1.380299,103.745286
+// Keat Hong,LRT,1.378604,103.749058
+// Teck Whye,LRT,1.376738,103.753665
+// Phoenix,LRT,1.378798,103.758021
+// Senja,LRT,1.382852,103.762312
+// Jelapang,LRT,1.386703,103.764547
+// Segar,LRT,1.387713,103.769599
+// Fajar,LRT,1.384502,103.770862
+// Bangkit,LRT,1.380281,103.772576
+// Pending,LRT,1.376223,103.771277
+// Petir,LRT,1.377828,103.76655
+// Compassvale,LRT,1.394615,103.900443
+// Rumbia,LRT,1.391553,103.905947
+// Bakau,LRT,1.38804,103.905412
+// Kangkar,LRT,1.383957,103.90216
+// Ranggung,LRT,1.384116,103.897386
+// Cheng Lim,LRT,1.396332,103.89379
+// Farmway,LRT,1.397178,103.889168
+// Kupang,LRT,1.398271,103.881283
+// Thanggam,LRT,1.397378,103.87561
+// Fernvale,LRT,1.392033,103.876256
+// Layar,LRT,1.392141,103.880022
+// Tongkang,LRT,1.389519,103.885829
+// Renjong,LRT,1.386827,103.890541
+// Cove,LRT,1.399534,103.905792
+// Meridian,LRT,1.397002,103.908884
+// Coral Edge,LRT,1.39392,103.912633
+// Riviera,LRT,1.39454,103.916056
+// Kadaloor,LRT,1.399633,103.916536
+// Oasis,LRT,1.402304,103.912736
+// Damai,LRT,1.405293,103.908606
+// Sam Kee,LRT,1.409808,103.90492
+// Teck Lee,LRT,1.412783,103.906565
+// Punggol Point,LRT,1.416932,103.90668
+// Samudera,LRT,1.415955,103.902185
+// Nibong,LRT,1.411865,103.900321
+// Sumang,LRT,1.408501,103.898605
+// Soo Teck,LRT,1.405436,103.897287
