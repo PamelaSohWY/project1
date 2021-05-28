@@ -19,7 +19,7 @@
 //           console.log("try")
 //   })
 
-  async function getStation(){
+  async function getStation(map){
       let data = await axios.get("./data/mrt.json");
       return data.data;
   }
@@ -38,3 +38,46 @@
   })
 
   //document.querySelectorAll('option:checked')[0].value // found on google
+
+//Create new layer for Mrt 
+//gobal variable
+let mrtlayer = L.layerGroup()
+
+let divElement1 = document.createElement('div');
+
+//marker 
+async function getMrtCoordinates(map){  //no need map for this bec not using map 
+ let response1 = await axios.get('./data/mrt.json');
+ //x.features[0].geometry.coordinates[1]
+ console.log(response1.data);
+ // create an empty group
+
+
+ //loop through co-ordinates
+ for(let c of response1.data) { //higher level parent
+  // create marker using each corodinates
+   let marker = L.marker(c.coordinates) //do not add in [] dont put in nested array
+   console.log(marker) //To check if the function is called
+   // add marker to layer 
+   marker.addTo(mrtlayer);
+   //bind popup to marker
+   marker.bindPopup(`station`);
+   
+ }
+    // add layer to map
+   mrtlayer.addTo(map);
+
+  };
+
+   //toggle button
+  document
+  .getElementById("btn-add-mrtstation")
+  .addEventListener("click", function(){
+    if (map.hasLayer(mrtlayer)){
+      map.removeLayer(mrtlayer);
+     } else{
+     map.addLayer(mrtlayer)
+  }});
+
+  getStation(map);
+  getMrtCoordinates(map);
