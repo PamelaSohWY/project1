@@ -24,16 +24,17 @@
       return data.data;
   }
 
+  //28 May remarks : currently generating with each click, but should only generate once (so add into DOM content loaded )
   document.querySelector('#dropdownMenuButton1').addEventListener('click', async function(){
         let stations = await getStation();
         let name = stations.name
         console.log(stations);
         console.log(1);
         for(let i of stations){
-            document.querySelector('#dropdownMenuButton1').innerHTML += `<li>Name: ${data.name}</li>`
+            document.querySelector('#xyzstation').innerHTML += `<li><a class="dropdown-item" href="#">${i.name}</a></li>`
 
         }
         
   })
 
-  //document.querySelectorAll('option:checked')[0].value
+  //document.querySelectorAll('option:checked')[0].value // found on google
