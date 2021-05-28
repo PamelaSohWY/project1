@@ -26,10 +26,11 @@
 
   document.querySelector('#dropdownMenuButton1').addEventListener('click', async function(){
         let stations = await getStation();
+        let name = stations.name
         console.log(stations);
         console.log(1);
         for(let i of stations){
-            document.querySelector('#dropdownMenuButton1').innerHTML += "<li>123</li>"
+            document.querySelector('#dropdownMenuButton1').innerHTML += `<li>Name: ${data.name}</li>`
 
         }
         

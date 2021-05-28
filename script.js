@@ -136,8 +136,6 @@ else
       console.log(postal)
 } 
 
-
-
   
   }
   // add layer to map
