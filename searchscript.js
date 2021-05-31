@@ -38,7 +38,7 @@
                       shadowSize:   [50, 64], // size of the shadow
                       iconAnchor:   i.coordinates, // point of the icon which will correspond to marker's location
                       shadowAnchor: [4, 62],  // the same for the shadow
-                    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+                    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
                     })
     
                     let marker = L.marker([i.coordinates],{icon: redstarIcon}); //,{icon:trashIcon} Do i put it here? //add semicolon to aend of every line
