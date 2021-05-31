@@ -58,25 +58,8 @@ href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
           <li class="nav-item">
             <a class="nav-link" href="#">How</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Waste Management</a></li>
-              <li><a class="dropdown-item" href="#">Location of Cash for Trash Stations</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        
       </div>
     </div>
   </nav>
@@ -87,7 +70,8 @@ href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
   <div class="main-text">
     <h1>Turn Your Trash</h1>
     <h2>Into Cash</h2>
-    <button>Find out how</button>
+    <button type="button" class="btn btn-warning">Find out how</button>
+
   </div>
 </div>
 
@@ -95,10 +79,10 @@ href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
   <!--Include CSS Grid-->
   <div class="row">
     <div class="col-md">
-      <button id="btn-add-trashstation" >Show All Trash Stations</button>  
+      <button type="button" class="btn btn-primary" id="btn-add-trashstation">Show All Trash Stations</button>
     </div>
     <div class="col-md">
-      <button id="btn-add-mrtstation" >Show All MRT Stations</button> 
+      <button type="button" class="btn btn-info" id="btn-add-mrtstation" >Show All MRT Stations</button> 
     </div>
     <div class="col-md">
       <div class="dropdown">
@@ -106,7 +90,7 @@ href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
           Find Specific MRT Stations
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="xyzstation">
-          <li><a class="dropdown-item" href="#"> </a></li>
+          <li class="location"><a class="dropdown-item" > </a></li>
     </div>
   </div>
    
