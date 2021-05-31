@@ -118,6 +118,8 @@ Locate the red star, MRT Station and Cash for Trash Locations
 ![Case 3 Result](./mockupimages/result3.jpg)
 
 ## Limitations / Areas of Improvement    
+**Information in Marker PopUp Box**
+The information can be more and stylized into tables. This is an area which can be improved moving forward.
 **Layers to be prioritzed**      
 Layers can be far better prioritized, as there is an instance when the MRT layer will hide the specified MRT layer.    
 As such, there can be further inehancement to ensure that the specified MRT layer is not hidden by the general MRT layer.    
