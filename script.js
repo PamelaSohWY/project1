@@ -1,6 +1,7 @@
 
 //gobal variable
-let xlayer = L.layerGroup()
+
+let clusterlayer= new L.MarkerClusterGroup() // new object created
 
  let divElement = document.createElement('div');
 
@@ -29,12 +30,14 @@ async function getCoordinates(map){  //no need map for this bec not using map
    let marker = L.marker([coordinates.geometry.coordinates[1], coordinates.geometry.coordinates[0]],{icon: trashIcon}
     ); //,{icon:trashIcon} Do i put it here? //add semicolon to aend of every line
     // add marker to layer 
-    marker.addTo(xlayer);
+    //marker.addTo(xlayer);
+    clusterlayer.addLayer(marker)
     //bind popup to marker
     marker.bindPopup('hello');  
  }
   // add layer to map
-  xlayer.addTo(map);
+  //xlayer.addTo(map);
+  map.addLayer(clusterlayer)
 
   
 
@@ -44,10 +47,10 @@ async function getCoordinates(map){  //no need map for this bec not using map
   document
   .getElementById("btn-add-trashstation")
   .addEventListener("click", function(){
-    if (map.hasLayer(xlayer)){
-      map.removeLayer(xlayer);
+    if (map.hasLayer(clusterlayer)){
+      map.removeLayer(clusterlayer);
      } else{
-     map.addLayer(xlayer)
+     map.addLayer(clusterlayer)
   }})
 
 // For Set Up of Map

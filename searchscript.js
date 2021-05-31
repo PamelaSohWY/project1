@@ -100,7 +100,9 @@ marker.bindPopup('station');
 
 }
 // add layer to map
+
 mrtlayer.addTo(map);
+
 
 }; // end of async function
 
@@ -111,7 +113,8 @@ document
 if (map.hasLayer(mrtlayer)){
   map.removeLayer(mrtlayer);
  } else{
- map.addLayer(mrtlayer)
+ 
+ map.addLayer(mrtlayer,true)
 }});
 
 getStation(map);
