@@ -1,49 +1,26 @@
-// async function getStation(desiredStation) {
-//     let url = `./data/mrt.json/${desiredStation}`;
-//     let response = await axios.get(url);
-//     return response.data;
-//   }
-  
-//   document.querySelector('#dropdownMenuButton1').addEventListener('click', async function(){
-      
-//       let searchTerms = document.querySelector('#dropdownMenuButton1').value; //check if this ID is correct. 
-  
-//       let station = await getStation(searchTerms);
-//       let name = station.name
-//       let type = station.type;
-  
-      
-//       let dataElement = document.querySelector('#data');
-//       dataElement.innerHTML = `<li>Name: ${name}</li>
-//           <li><img src='${type}'</li>`
-//           console.log("try")
-//   })
+// make sure no conflict between the 2 scripts 
+// make sure its all triggered by function
 
   async function getStation(map){
       let data = await axios.get("./data/mrt.json");
       return data.data;
   }
 
-  //28 May remarks : currently generating with each click, but should only generate once (so add into DOM content loaded )
+  //28 May : currently generating with each click, but should only generate once (so add into DOM content loaded )??
   document.querySelector('#dropdownMenuButton1').addEventListener('click', async function(){
         let stations = await getStation();
         let name = stations.name
         console.log(stations);
         console.log(1);
         for(let i of stations){
-            document.querySelector('#xyzstation').innerHTML += `<li><a class="dropdown-item" href="#">${i.name}</a></li>`
-
+            document.querySelector('#xyzstation').innerHTML += `<li>${i.name}</li>`
         }
-        
-  })
-
-  //document.querySelectorAll('option:checked')[0].value // found on google
-
+      
 //Create new layer for Mrt 
 //gobal variable
 let mrtlayer = L.layerGroup()
 
-let divElement1 = document.createElement('div');
+let divElement = document.createElement('div');
 
 //marker 
 async function getMrtCoordinates(map){  //no need map for this bec not using map 
@@ -56,22 +33,35 @@ async function getMrtCoordinates(map){  //no need map for this bec not using map
  //loop through co-ordinates
  for(let c of response1.data) { //higher level parent
   // create marker using each corodinates
-   let marker = L.marker(c.coordinates) //do not add in [] dont put in nested array
-   console.log(marker) //To check if the function is called
+
+  var mrtIcon = L.icon({
+    iconUrl: './images/MRT.png',
+
+    //coordinates already defined at line 18
+   
+    iconSize:     [20, 20], // size of the icon
+    shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [c.coordinates[1], c.coordinates[0]], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+   popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+   })
+
+   let marker1 = L.marker(c.coordinates[1], c.coordinates[0]); //do not add in [] dont put in nested array
+   console.log(marker1); //To check if the function is called
    // add marker to layer 
-   marker.addTo(mrtlayer);
+   marker1.addTo(mrtlayer);
    //bind popup to marker
-   marker.bindPopup(`station`);
+   marker1.bindPopup('station');
    
  }
     // add layer to map
    mrtlayer.addTo(map);
 
-  };
+  }; // end of async function
 
    //toggle button
   document
-  .getElementById("btn-add-mrtstation")
+  .getElementById("btn btn-secondary btn-add-mrtstation")
   .addEventListener("click", function(){
     if (map.hasLayer(mrtlayer)){
       map.removeLayer(mrtlayer);
