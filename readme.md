@@ -37,8 +37,19 @@ The website will allow for easy access to locations of recycling stations as wel
 
 ## UX/UI
 
-**Surface**
-Visual Design 
+**Strategy**
+As mentioned above, the website's objective is to help lessen the paint point of the user. In this case, the target audience would be consumers
+User Needs Business Objectives
+
+**Scope**
+Functional Specification 
+
+Content Requirements
+
+**Structure**
+Interaction Design 
+
+Information Design 
 
 **Skeleton**
 
@@ -48,18 +59,8 @@ Navigation Design
 
 Information Design
 
-**Structure**
-Interaction Design 
-
-Information Design 
-
-**Scope**
-Functional Specification 
-
-Content Requirements
-
-**Strategy**
-User Needs Business Objectives
+**Surface**
+Visual Design 
 
 **Home Page**
 ![Home Page](./mockupimages/image1home.png)
