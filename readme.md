@@ -43,34 +43,107 @@ User Needs Business Objectives
 
 **Scope**
 Functional Specifications
-1) Able to locate 
-
+1) Able to locate Cash for Trash stations 
+2) Able to locate MRT Stations 
+3) Able to Select specific MRT Station
 
 Content Requirements
+1. Know the steps for recycling 
+2. Reasons for recycling
 
 **Structure**
 Interaction Design 
+1. Users are able to use 2 toggles buttons to hide and show the 2 data sets. 
+2. Users are able to select a specific data point. 
 
 Information Design 
+1. First layer of information (Home Page) contains information that would be used often, as such the interactive map is the main primary feature. The secondary feature is the main picture image (hero image) with a call to action button (find out more). This allows users who need more information to access the second layer of informaiton without overwhelming them with too much information.
+2. Second layer of information is clustered into bite size cards with provocative questions. This is to enable them to be able to see chunking of information and make it easy for them to read and remember the key components.  
 
 **Skeleton**
 
 Interface Design 
+1. Able to see all the interactive buttons at one glance 
 
 Navigation Design 
+1. Contains nav bar that allows for easy access to different chunks of information
 
 Information Design
+1. Information is branched off from the main landing page
 
 **Surface**
 Visual Design 
+1. Design is minimalistic (plain background) with contrasting pictures and coloured buttons to create focal point. 
 
 **Home Page**
 ![Home Page](./mockupimages/image1home.png)
-
 Why Page
 ![Why Page](./mockupimages/image2how.png)
 How Page
 ![How Page](./mockupimages/image3why.png)
+
+
+## Test Cases 
+**Case 1**    
+User 1: New to Recycling     
+Objective of User: Needs to find recycling stations locations
+Step 1:    
+Click on Show/ Hide Cash for Trash Stations    
+
+ **Result for Case 1**
+![Case 1 Result](./mockupimages/result1.jpg)
+
+**Case 2**
+User 2: Keen to recycle
+Objective : Needs to find nearby recycling stations to MRT 
+Step 1: 
+Click on Show/Hide Cash for Trash Stations
+Step 2:
+Click on Show/Hide MRT Stations 
+
+ **Result for Case 1**
+![Case 2 Result](./mockupimages/result2.jpg)
+
+**Case 3**
+User 3: Decided to recycle
+Objective: Locate specific trash stations near specified MRT
+Step 1: 
+Click on Show/Hide Cash for Trash Stations
+Step 2:
+Click on specific MRT station in dropdown list 
+Step 3:
+Locate the red star, MRT Station and Cash for Trash Locations 
+
+ **Result for Case 3**
+![Case 3 Result](./mockupimages/result3.jpg)
+
+## Limitations / Areas of Improvement    
+**Layers to be prioritzed**      
+Layers can be far better prioritized, as there is an instance when the MRT layer will hide the specified MRT layer.    
+As such, there can be further inehancement to ensure that the specified MRT layer is not hidden by the general MRT layer.    
+**Removal of layers**    
+At the point of the development, the removal of layers is manual and not automatic when the drop down button is used.    
+**Enhancement to the How and Why pages**   
+More can be done to enhance the communication of information and data for the how and why pages. This can come in the form of apex charts to provide visualization of data.   
+
+## Deployment to Netlify
+Step 1 | Sign up for an account at Netlify
+Go to https://www.netlify.com/ and log in with your Github account. 
+
+Step 2 | Commit and push your code to Github
+It is possible for Netlify to directly pull the code from your Github. Hence before deploying, make sure to commit and push your latest code.
+
+Step 3 | Create a new site from Git
+Click on the green button shown below to create a new site from Github:
+
+Step 4 | Choose Continuous Deployment
+Select Github from the choices below. A pop-up window will appear and ask if you want to authorize Github -- allow it. Note if you are using Firefox or a pop-up blocker, you may have to disable it or allow Netlify to have pop-ups
+
+Step 5 | Select or search for your repo
+Select the repo that you want to deploy. After that, it will display some options. Just leave everything as it is and select the Deploy Site button.
+
+Step 6| Wait for deployment to be done
+Once it is done, you can test your site. As Netlify is capable of continuous deployment, the next time you push, your Netlify site will be automatically updated.
 
 **Responsiveness test**
 http://ami.responsivedesign.is/#
@@ -116,3 +189,6 @@ vecteezy_storing-paper-and-cardboard-of-a-supermarket_1370418
 vecteezy_plastic-bottles-in-a-recycling-bin-focus-is-on-the-bottles_1393238
 
 vecteezy_two-men-cleaning-up-park_1227644
+
+**Deployment**
+Class Deployment Guide
