@@ -18,7 +18,17 @@
             document.querySelector('#xyzstation').innerHTML += `<li>${i.name}</li>`
         }
       
-      })
+      })//end of docQS
+
+      //this code is to generate action click
+// document.querySelector ('#location').addEventListener('click', async function(){
+
+// })//end of docQS 
+//         // user click get what user click on 
+//         if (stations.name ===  )
+//         //re-rendering your whole marker
+//        // - remove marker 
+//         //- add only 1 marker 
 //Create new layer for Mrt 
 //gobal variable
 let mrtlayer = L.layerGroup()
@@ -40,7 +50,7 @@ async function getMrtCoordinates(map){  //no need map for this bec not using map
   var mrtIcon = L.icon({
     iconUrl: './images/MRT.png',
 
-    //coordinates already defined at line 18
+   
    
     iconSize:     [20, 20], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
