@@ -44,6 +44,7 @@ User Needs Business Objectives
 **Scope**
 Functional Specification 
 
+
 Content Requirements
 
 **Structure**
@@ -77,7 +78,7 @@ http://ami.responsivedesign.is/#
 **6. Acknowledgement of code and other content that are not produced by you.**
 
 **Use of Colour Calculator**  
-https://www.sessions.edu/color-calculator-results/?colors=f7dfb2,edf7b2,f7bdb2,d19c39
+https://www.sessions.edu/color-calculator-results
 
 **Bootstrap Code**  
 <!-- Broiler template from Bootstap -->
@@ -86,20 +87,31 @@ https://www.sessions.edu/color-calculator-results/?colors=f7dfb2,edf7b2,f7bdb2,d
 **Map Code - Leafletjs**  
 https://leafletjs.com/
 
-Netlify Deployment 
-https://app.netlify.com/sites/practical-euclid-c4ffdc/overview
+**Data**
+https://data.gov.sg/dataset/cash-for-trash
 
-Data Source: 
+**Data Source**
 https://mygeodata.cloud/converter/kml-to-geojson
 
-MRT Points 
+**MRT Points**
 https://www.kaggle.com/yxlee245/singapore-train-station-coordinates
 changes to json file
 
-All Photos from www.vecteezy
-https://www.vecteezy.com/photo/770450-scrap
-Picture: Scrapped car
-https://www.vecteezy.com/photo/1392910-abandoned-and-damaged-keyboard-in-an-italian-asylum
-Picture: keyboard 
-https://www.vecteezy.com/photo/2387262-face-mask-pack-in-zip-lock-before-throw-into-the-trash-with-a-worm-view-from-the-inside-of-the-trash-bin
-Picture:mask 
+
+**Bootstrap Items**
+https://www.w3schools.com/bootstrap4/bootstrap_cards.asp
+
+**Netlify Deployment**
+https://app.netlify.com/sites/practical-euclid-c4ffdc/overview
+
+
+**All Photos from www.vecteezy**
+https://www.vecteezy.com
+
+vecteezy_face-mask-pack-in-zip-lock-before-throw-into-the-trash-with-a-worm-view-from-the-inside-of-the-trash-bin_2387262
+
+vecteezy_storing-paper-and-cardboard-of-a-supermarket_1370418
+
+vecteezy_plastic-bottles-in-a-recycling-bin-focus-is-on-the-bottles_1393238
+
+vecteezy_two-men-cleaning-up-park_1227644
