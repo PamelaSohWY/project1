@@ -37,12 +37,32 @@ The website will allow for easy access to locations of recycling stations as wel
 
 ## UX/UI
 
+**Surface**
+Visual Design 
+
+**Skeleton**
+
+Interface Design 
+
+Navigation Design 
+
+Information Design
+
+**Structure**
+Interaction Design 
+
+Information Design 
+
+**Scope**
+Functional Specification 
+
+Content Requirements
+
+**Strategy**
+User Needs Business Objectives
+
 **Home Page**
 ![Home Page](./mockupimages/image1home.png)
-
-UI Considerations 
-
-UX Consideration
 
 Why Page
 ![Why Page](./mockupimages/image2how.png)
