@@ -28,12 +28,12 @@ async function getCoordinates(map){  //no need map for this bec not using map
    })
   
    let marker = L.marker([coordinates.geometry.coordinates[1], coordinates.geometry.coordinates[0]],{icon: trashIcon}
-    ); //,{icon:trashIcon} Do i put it here? //add semicolon to aend of every line
+    ); 
     // add marker to layer 
-    //marker.addTo(xlayer);
+    
     clusterlayer.addLayer(marker)
     //bind popup to marker
-    marker.bindPopup('hello');  
+    marker.bindPopup('Cash for Trash Station');  
  }
   // add layer to map
   //xlayer.addTo(map);

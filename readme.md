@@ -23,17 +23,17 @@ The website will allow for easy access to locations of recycling stations as wel
 
 | Items      |Remarks (FileName / Line ) |
 | ----------- | ----------- |
-| Consume the GET endpoint of an API, or consume a CSV/JSON file     | script.js(line 9 /line 61 )/ search script.js(line 5 )    |
-| Adding or removing DOM elements to the display (map, DOM tree, game screen) base on user's actions  | script.js(line X )/ search script.js(line Y )         |
-| Modifying the CSS of DOM elements based on the user's actions | script.js(line X )/ search script.js(line Y ) |
-| Use of 1D traversal of array |  script.js(line X )/ search script.js(line Y ) |
-| Each use of a unique functional mapping method (map, reduce, filter) |  script.js(line X )/ search script.js(line Y ) |
-| Each use of CSS layout technique (Bootstrap columns, flex box, grid) |  script.js(line X )/ search script.js(line Y ) |
-| Each possible search or filtering criteria in the user interface |  script.js(line X )/ search script.js(line Y ) |
-| Each case of the map updating base on the user's actions | ----------- |
-| Each group of layers in the Leaflet map | ----------- |
-| Each group of marker clustering | ----------- |
-| Each type of custom marker (using images or custom behaviour) | ----------- |
+| Consume the GET endpoint of an API, or consume a CSV/JSON file     | script.js(line 9 /line 61 )/ searchscript.js(line 5 )    |
+| Adding or removing DOM elements to the display (map, DOM tree, game screen) base on user's actions  | script.js(line 36 )/ searchscript.js(line 48 and99 )         |
+| Modifying the CSS of DOM elements based on the user's actions | script.js(line X )/ searchscript.js(line Y ) |
+| Use of 1D traversal of array |  script.js(line 15)/ search script.js(line 16 and 22 ) |
+| Each use of a unique functional mapping method (map, reduce, filter) |  script.js(line 40 )/ search script.js(line 54/ 104 ) |
+| Each use of CSS layout technique (Bootstrap columns, flex box, grid) |  styles.css and index.html line 69-73 ) |
+| Each possible search or filtering criteria in the user interface |  script.js(line X )/ search script.js(line 22-54 ) |
+| Each case of the map updating base on the user's actions | script.js(line 46 )/ searchscript.js(line 12 and 111 ) |
+| Each group of layers in the Leaflet map | script.js(line 4 )/ searchscript.js(line 26 and 66 ) |
+| Each group of marker clustering | script.js(line 4)|
+| Each type of custom marker (using images or custom behaviour) | script.js(line 18 )/ search script.js(line 32 and 82 ) |
 
 ## UX/UI
 
@@ -42,7 +42,8 @@ As mentioned above, the website's objective is to help lessen the paint point of
 User Needs Business Objectives
 
 **Scope**
-Functional Specification 
+Functional Specifications
+1) Able to locate 
 
 
 Content Requirements
