@@ -37,17 +37,33 @@ The website will allow for easy access to locations of recycling stations as wel
 
 ## UX/UI
 
+**Home Page**
+![Home Page](./mockupimages/image1home.png)
 
+UI Considerations 
+
+UX Consideration
+
+Why Page
+![Why Page](./mockupimages/image2how.png)
+How Page
+![How Page](./mockupimages/image3why.png)
 
 **Responsiveness test**
 http://ami.responsivedesign.is/#
 ![Responsive Test](/mockupimages/responsivetest.JPG)
 
+**6. Acknowledgement of code and other content that are not produced by you.**
 
+**Use of Colour Calculator**  
+https://www.sessions.edu/color-calculator-results/?colors=f7dfb2,edf7b2,f7bdb2,d19c39
 
+**Bootstrap Code**  
+<!-- Broiler template from Bootstap -->
+<!-- https://getbootstrap.com/docs/4.5/getting-started/introduction/ -->
 
-
-
+**Map Code - Leafletjs**  
+https://leafletjs.com/
 
 Netlify Deployment 
 https://app.netlify.com/sites/practical-euclid-c4ffdc/overview
@@ -59,6 +75,7 @@ MRT Points
 https://www.kaggle.com/yxlee245/singapore-train-station-coordinates
 changes to json file
 
+All Photos from www.vecteezy
 https://www.vecteezy.com/photo/770450-scrap
 Picture: Scrapped car
 https://www.vecteezy.com/photo/1392910-abandoned-and-damaged-keyboard-in-an-italian-asylum
